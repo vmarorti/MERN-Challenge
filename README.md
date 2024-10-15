@@ -12,3 +12,6 @@ Modify the existing authentication middleware so that it works in the context of
 Create an Apollo Provider so that requests can communicate with an Apollo Server.
 
 Deploy the application to Render.
+
+## Screenshot
+![alt text](image.png)
