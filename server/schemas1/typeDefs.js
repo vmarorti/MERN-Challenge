@@ -1,6 +1,4 @@
-// Query` type:
-//Make sure they are capitalized. Where i see require, I will use (!)
-//For mongoDB, id is normally always required
+ed
 // This .js file is for FETCHING data from the database.
 const typeDefs = `
   type User {
