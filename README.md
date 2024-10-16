@@ -15,3 +15,7 @@ Deploy the application to Render.
 
 ## Screenshot
 ![alt text](image.png)
+
+## Link to deployed application on Render
+[text](https://mern-challenge-3.onrender.com)
+
