@@ -8,6 +8,7 @@ const { typeDefs, resolvers } = require('./schemas1');
 const db = require('./config/connection');
 
 const PORT = process.env.PORT || 3001;
+console.log('PORT is:', process.env.PORT);
 const app = express();
 const server = new ApolloServer({
   typeDefs,
@@ -43,4 +44,3 @@ const startApolloServer = async () => {
  (async () => {
   await startApolloServer();
  })();
- 
