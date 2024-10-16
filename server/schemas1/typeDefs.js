@@ -1,5 +1,3 @@
-ed
-// This .js file is for FETCHING data from the database.
 const typeDefs = `
   type User {
     _id: ID!

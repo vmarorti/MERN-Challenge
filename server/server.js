@@ -22,7 +22,7 @@ const startApolloServer = async () => {
   app.use(express.json());
 
   app.use('/graphql', expressMiddleware(server, {
-    context: authMiddleware
+    context: authMiddleware,
   }));
 
   if (process.env.NODE_ENV === 'production') {
@@ -40,4 +40,7 @@ const startApolloServer = async () => {
     });
   });
 };
-  startApolloServer();
+ (async () => {
+  await startApolloServer();
+ })();
+ 
